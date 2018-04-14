@@ -25,4 +25,4 @@ A ton of the features have already been mentioned, but here is a fully compiled 
 - All application actions are in a DM with the bot to maintain privacy
 
 ## Ready to use the bot?
-docs
+[![Documentation](https://i.imgur.com/iC8Rbg0.png)](https://github.com/Joshuliu/AppBot/blob/master/Documentation.md)
