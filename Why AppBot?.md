@@ -25,4 +25,4 @@ A ton of the features have already been mentioned, but here is a fully compiled 
 - All application actions are in a DM with the bot to maintain privacy
 
 ## Ready to use the bot?
-Well I'm still making the documentation and shit so you're going to have to wait.
+docs
