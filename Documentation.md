@@ -13,6 +13,8 @@ The following commands are for users with either the Administrator permission, o
 | `app edit <app>`  |  Edit an application's contents, including introduction, questions, acceptance message, and autorole. |
 | `app create <numofqns> <app>`  |  Create a new application with the given name and number of questions (e.g. `/app create 3 moderator` for a moderator application with three questions) |
 | `app delete <app>`  | Deletes an application |
+| `app close <app>`  | Closes an application to prevent applying temporarily |
+| `app open <app>`  | Opens a closed application |
 | `app list`  | Views a list of applications (aka positions for appliers to apply for). Members also have access to this command.  |
 | `review <member> `(alias `view`)  | Review a member's application - if they applied for more than one position, you can pick which application to review. Reviewers can choose to accept, ignore, or deny applications.  |
 | `applications` (alias `apps`)  |  A list of unreviewed applications in the server. Use the `review` command to review applications. |
