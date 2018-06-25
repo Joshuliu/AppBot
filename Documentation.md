@@ -1,5 +1,5 @@
 # AppBot Documentation
-This is a list of commands and what they do. If you want to keep things simpler than this *and* the [site](https://www.appbot.gq), you should see the EasyDocs for a step buy step guide on getting started. Otherwise, let's get started.
+This is a list of commands and what they do. Make sure to join [the support server](https://bit.ly/appbot-help) if you ever need any help.
 
 ## Things to Note
 The commands in the documentation don't have a prefix shown because you can customize the prefix(es). The default prefixes are `/` and mentioning the bot `@AppBot`
