@@ -9,6 +9,7 @@ Well I'm not done with the documentation so you can't get help here rn.
 There are a few easy ways to support the bot. To benifit the bot, you can either upvote the bot, or tell all your friends about it (click the widget below). If you'd want to support the bot by suggesting features or reporting bugs, you can join [the support server](http://discord.gg/u5xGqzh).
 
 [![Discord Bots](https://discordbots.org/api/widget/424817451293736961.svg?topcolor=29B6F6&datacolor=29B6F6&labelcolor=FFFFFF)](https://discordbots.org/bot/424817451293736961)
+[!Bots for Discord](https://botsfordiscord.com/api/v1/bots/424817451293736961/embed)
 
 ------------
 
