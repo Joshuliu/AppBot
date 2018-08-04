@@ -57,6 +57,7 @@ With the update of application types, there are now three main commands:
 * `/apply` 
 * `/register`
 * `/report`
+
 Applications will show up based on the type requested by the command invoked.
 
 Answering questions will be similar to inputting questions. A single message is sent with the question, and an answer and new question is edited in with every message. After all questions have been answered, the user would submit the application like usual.
