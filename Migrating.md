@@ -51,6 +51,13 @@ Edit the app name, introduction, acceptance role, etc.
 
 ---
 
+### Reviewing
+We have added a whole section of reviewing to make the experience a lot better. The original way to review, `/review @member`, is still existent. One small change has been made. Typing `/review` by itself will bring up a menu to review members in different ways.
+![Review](https://i.imgur.com/BcVIN3U.png)
+With `/review`, you can now review applications a lot faster than you could before.
+
+---
+
 ### Applying
 Applying received a few minor changes.
 With the update of application types, there are now three main commands:
