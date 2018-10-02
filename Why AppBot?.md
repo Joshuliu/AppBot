@@ -12,7 +12,7 @@ AppBot is customizable from the beginning to end. Personalize your bot's applica
 ## Feature Packed
 A ton of the features have already been mentioned, but here is a fully compiled list of features in the bot.
 - Infinite application formats (Appliers can apply for moderator, builder, etc.)
-- Up to 50 Questions per application (no one needs that many)
+- Up to 25 Questions per application (no one needs that many)
 - Customizable introduction for each application (Tells the applier basic information like "Be honest on your application!")
 - Automatic role assignment upon applier getting accepted
 - Custom acceptance message
