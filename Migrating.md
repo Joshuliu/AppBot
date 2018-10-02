@@ -10,11 +10,6 @@ AppBot is receiving a huge update. Features include:
 * More Application customization and options
 * ...and a lot more!
 
-## Early Testing
-As of 07/16/2018, the pre-release was out. You can [add the bot](https://discordapp.com/oauth2/authorize?client_id=432478092456624138&permissions=8&scope=bot) if it's available. AppBot 2.0 may have already been implemented by the time you see this.
-
-**Note:** The true owner of the server with the Dev. bot must be in the support server, and AppBot must be in the same server.
-
 ## Migrating Documentation
 
 ### Configuration
