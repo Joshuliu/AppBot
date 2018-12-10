@@ -1,7 +1,7 @@
 # Why AppBot?
 "lol appbot that sounds so noob ecksdee ecksdee xD xD"
 ### AppBot is more powerful than it looks.
-AppBot is a bot made for staff applications. Here's why.
+AppBot is a bot made for staff applications.
 
 ## AppBot is Built for Discord.
 AppBot is made as a replacement to things like Google Forms. Users can get things done faster by applying within Discord instead of going to an external site. Staff members reviewing applications won't have to give out their email just to review applications - a role can be set to do the job.  The bot will send a customizable message if the applier gets accepted/denied. He/she can receive a role given by the bot upon being accepted.
@@ -12,7 +12,7 @@ AppBot is customizable from the beginning to end. Personalize your bot's applica
 ## Feature Packed
 A ton of the features have already been mentioned, but here is a fully compiled list of features in the bot.
 - Infinite application formats (Appliers can apply for moderator, builder, etc.)
-- Up to 50 Questions per application (no one needs that many)
+- Up to 25 Questions per application (no one needs that many)
 - Customizable introduction for each application (Tells the applier basic information like "Be honest on your application!")
 - Automatic role assignment upon applier getting accepted
 - Custom acceptance message
@@ -21,7 +21,7 @@ A ton of the features have already been mentioned, but here is a fully compiled 
 - Set a channel to log application-related actions (accepting, creating, denying, etc.)
 - Customizable theme (embed colors can be changed)
 - Customizable prefix(es)
-- Custom emotes and reactions as buttons
+- Custom message reactions as buttons
 - All application actions are in a DM with the bot to maintain privacy
 
 ## Ready to use the bot?
