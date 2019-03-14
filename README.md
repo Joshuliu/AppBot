@@ -1,6 +1,6 @@
 # AppBot + GitHub
 
-AppBot's Github mainly provides information about the bot, but also some basic help. Get headstarted on using the bot here - not on [some fancy site](https://www.appbot.gq), but on some easy to read, plain black on white text. Here, you can get help all the help you need. If you want to suggest a feature or report a bug, or you want live support, you should still join [the support server](http://discord.gg/u5xGqzh). Otherwise, you can probably find what you need here.
+AppBot's Github mainly provides information about the bot, but also some basic help. Get headstarted on using the bot here - not on [some fancy site](https://www.appbot.site), but on some easy to read, plain black on white text. Here, you can get help all the help you need. If you want to suggest a feature or report a bug, or you want live support, you should still join [the support server](http://discord.gg/u5xGqzh). Otherwise, you can probably find what you need here.
 
 ## Ready to Start?
 Well I'm not done with the documentation so you can't get help here rn.
