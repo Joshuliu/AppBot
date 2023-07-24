@@ -1,6 +1,4 @@
 # Why AppBot?
-"lol appbot that sounds so noob ecksdee ecksdee xD xD"
-### AppBot is more powerful than it looks.
 AppBot is a bot made for staff applications.
 
 ## AppBot is Built for Discord.
