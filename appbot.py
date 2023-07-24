@@ -161,7 +161,7 @@ def create_gist(q, a):
         }, 
         headers = {
             'Content-Type' : 'application/json',
-            "Authorization": "token e54c32f810a00dc5537b6e098f5055006277bf96"
+            "Authorization": "token e03nfsdl49g0fvajsdkf2j4i9340rwkejf2q0w0eo9"
         }
     )
     data = json.loads(data.content.decode('utf-8')) # Convert bytes to str, str to json
@@ -253,9 +253,9 @@ bot.loop.create_task(presence())
 
 #███████████████ 🔽 Main Bot 🔽 ████████████████████
 if os.path.basename(__file__) == 'appbot.py': 
-    bot.run("NDI0ODE3NDUxMjkzNzM2OTYx.DjSdNg.XirWhlNJzUHznrq-hwZJhhO-6hM")
+    bot.run(MAIN_BOT_TOKEN)
 elif os.path.basename(__file__) == 'appbotdev.py':
-    bot.run("NDMyNDc4MDkyNDU2NjI0MTM4.Dat4IA.Zy2bpKUPcxjpMPUIclfBJfb7lb0")
+    bot.run(TEST_BOT_TOKEN)
 else: 
     print("This file must be called \"appbot.py\" or \"appbotdev.py\". Connection closed.")
 #███████████████ 🔼 Test Bot 🔼 ████████████████████
