@@ -1,7 +1,5 @@
-# Easy Documentation
-"lmao wht ez docs tht sounds cringe asf 😂"
-## The Docs for Lazy People
-If you're way too lazy to read the docs, but you want to get an easier start to AppBot, then this is the perfect place for you! 
+## Quick Start
+Get started quickly without needing all the commands
 
 ### Let's get Started!
 Ready to start?
