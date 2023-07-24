@@ -1,9 +1,25 @@
-# AppBot Documentation
-This is a list of commands and what they do. Make sure to join [the support server](https://bit.ly/appbot-help) if you ever need any help.
+# AppBot
+AppBot is a production-scale Discord bot and a dedicated project I managed from 2016 to 2020. It gained popularity over the years, with over 13,000 users adding it to their servers. AppBot was written in Python and utilized 15+ modules including RethinkDB and Flask for its development. In addition to its comprehensive features and successful development, AppBot showcased a fully-fledged 24/7 support team of professionals, instrumental in ensuring smooth operations, addressing user inquiries, proactive response to bug reports, and providing timely assistance to the growing community of users. 
 
-## Things to Note
+The uploaded source code is a version of AppBot, written in 2018. During this period, a significant milestone in AppBot's development was the transition from a basic HTML website to a dynamic site utilizing Jinja. This pivotal upgrade empowered the bot to deliver a more engaging and interactive user experience through a web dashboard.
+
+## Run AppBot
+AppBot was developed using Python 3.6, which was the latest version at the time. The code was primarily tailored for deployment on our Linux servers and bot profiles, making it less readily compatible with other systems. Attempting to run the code on different setups will likely necessitate substantial modifications to adapt it for specific environments.
+
+Moreover, it's important to note that the codebase was written in 2018, further emphasizing the need for adjustments to accommodate changes in Python and related dependencies since that time. To ensure successful deployment, running the code on your computer would require extensive alterations to make it compatible with your particular setup.
+
+Start the Bot:
+```
+python3.6 appbot.py
+```
+Start the Website (under `website/`):
+```
+python3.6 site.py
+```
+## Documentation
+### Things to Note
 The commands in the documentation don't have a prefix shown because you can customize the prefix(es). The default prefixes are `/` and mentioning the bot `@AppBot`
-## Administrator Commands
+### Administrator Commands
 The following commands are for users with either the Administrator permission, or for people who have the application reviewing/editing role (if set).
 
 |  Command | Description  |
@@ -28,7 +44,7 @@ The following commands are for users with either the Administrator permission, o
 | `settheme <hex>` | Sets a color for all the embeds in the messages sent by the bot. The hex provided must be a valid 6 digit hex key. (e.g. `/settheme 29B6F6`) |
 | `reset` | Resets the bot as if you just added it. This command can done in `config`. |
 
-## Member Commands
+### Member Commands
 All users without either the Administrator permission, or without the application-reviewing role (if set) are considered members.
 
 | Commands | Description |
@@ -38,7 +54,7 @@ All users without either the Administrator permission, or without the applicatio
 | `application list` (alias `app list`) | Sends a list of positions to apply for |
 | `prefix list` | Sends a list of prefixes that are usable in the server |
 
-## Extra Commands
+### Extra Commands
 These commands are not shown in the regular help command provided the bot.
 
 | Commands  | Description |
