@@ -1,0 +1,90 @@
+{% extends "layout.html" %} {% block content %}
+<section class="mbr-section article content1 cid-qWuZN9tJpK" id="content1-f">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <style>
+
+                    /* Style the tab */
+                    .tab {
+                        overflow: hidden;
+                        background-color: #f1f1f1;
+                    }
+
+                    /* Style the buttons inside the tab */
+                    .tab button {
+                        background-color: inherit;
+                        float: left;
+                        border: none;
+                        outline: none;
+                        padding: 14px 16px;
+                        transition: 0.3s;
+                        font-size: 17px;
+                    }
+
+                    /* Change background color of buttons on hover */
+                    .tab button:hover {
+                        background-color: #ddd;
+                    }
+
+                    /* Style the tab content */
+                    .tabcontent {
+                        display: none;
+                        padding: 6px 12px;
+                        border-top: none;
+                    }
+                </style>
+
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Configuration')">Configuration</button>
+                    <button class="tablinks" onclick="openTab(event, 'Reviewing')">Reviewing</button>
+                    <button class="tablinks" onclick="openTab(event, 'Members')">Members</button>
+                    <button class="tablinks" onclick="openTab(event, 'Other')">Other Commands</button>
+                </div>
+
+                <!-- Introduction -->
+                <div class="tabcontent" style="display: block">
+                    <script src="https://gist.github.com/Joshuliu/2ca44863870f19ea2a9648e65e91b21e.js"></script>
+                </div>
+
+                <!-- Configuration -->
+                <div id="Configuration" class="tabcontent">
+                    <script src="https://gist.github.com/Joshuliu/e2504ea21d78f478815462f06a5a515d.js"></script> 
+                </div>
+
+                <!-- Reviewing Members -->
+                <div id="Reviewing" class="tabcontent">
+                    <script src="https://gist.github.com/Joshuliu/f5d04e45e7987ed8af6451bfc1374f1a.js"></script>
+                </div>
+
+                <!-- Member Commands -->
+                <div id="Members" class="tabcontent">
+                    <script src="https://gist.github.com/Joshuliu/dbf82d187462f5785d7c6e13a63ad178.js"></script>
+                </div>
+
+                <!-- Other Commands -->
+                <div id="Other" class="tabcontent">
+                    <script src="https://gist.github.com/Joshuliu/97c617569386d05c07adee181dbeb358.js"></script>
+                </div>
+
+                <script>
+                    function openTab(evt, tabName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        document.getElementById(tabName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+                </script> 
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

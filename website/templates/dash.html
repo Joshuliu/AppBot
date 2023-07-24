@@ -1,0 +1,64 @@
+{% extends "layout.html" %} {% block content %}
+<section class="mbr-fullscreen mbr-parallax-background" id="dash">
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='assets/main.css') }}">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        })
+    </script>
+
+    <div class="loader"></div>
+    <div id="guildlist">
+    {% for guild in r.json() %}
+        {% if bot_run(guild.id + " INGUILD") == "True" %}
+            {% if guild.icon != None %}
+            {% set guildimg = 'https://cdn.discordapp.com/icons/' + guild.id + '/' + guild.icon %}
+            {% endif %}
+
+            <div id='guild' style="background-image: url({{ guildimg }}); background-size: 50px" onclick=window.location.href="{{ url_for('dashboard', guild_id=guild.id) }}">
+                <span id="tooltiptext">{{ guild.name }}</span>
+            </div>
+
+        {% elif bot_run(guild.id + " PERMS " + user.id + " 0") == "True" and perms(guild.permissions, 32) %}
+            {% if guild.icon != None %}
+            {% set guildimg = 'https://cdn.discordapp.com/icons/' + guild.id + '/' + guild.icon %}
+            {% endif %}
+
+            <div id='guild' style="background-image: url({{ guildimg }}); background-size: 50px" onclick=window.location.href="{{ url_for('dashboard', guild_id=guild.id) }}">
+                <span id="tooltiptext">{{ guild.name }}</span>
+            </div>
+
+        {% endif %}
+    {% endfor %}
+    </div>
+
+    <div id="channellist">
+
+        {% if guild_id != None %}
+            {% include "dash-sects/channels.html" %}
+        {% else %}
+        <div class="channel">
+            <p>Select a Server</p>
+        </div>
+        {% endif %}
+
+    </div>
+
+    <!-- The hard part starts here. -->
+    {% if menu != None %}
+    <div class="main">
+        {% if menu == "create" %}
+            {% include "dash-sects/create.html" %}
+        {% elif menu == "edit" %}
+            {% include "dash-sects/edit.html" %}
+        {% elif menu == "channels-perms" %}
+            {% include "dash-sects/channels-perms.html" %}
+        {% endif %}
+    </div>
+    {% endif %}
+
+
+</section>
+{% endblock %}
