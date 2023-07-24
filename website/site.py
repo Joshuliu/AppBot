@@ -31,8 +31,8 @@ loop = asyncio.get_event_loop()
 
 LOGIN_URL = "https://discordapp.com/oauth2/authorize?client_id=424817451293736961&redirect_uri=https%3A%2F%2Fwww.appbot.site%2F&response_type=code&scope=identify%20guilds"
 API_ENDPOINT = 'https://discordapp.com/api/v6'
-CLIENT_ID = '424817451293736961'
-CLIENT_SECRET = 'oxdlQ_hOof2c7wh2Z09Otd8sYbzDpBta'
+CLIENT_ID = YOUR_CLIENT_ID
+CLIENT_SECRET = YOUR_CLIENT_SECRET
 REDIRECT_URI = 'https://www.appbot.site/'
 
 def exchange_code(code):
