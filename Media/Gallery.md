@@ -1,6 +1,20 @@
 # Gallery
 
-Gallery of AppBot
+This space is dedicated to showcasing a comprehensive view of how AppBot operates, its user interface, and the various ways it can enhance your experience.
+
+## Website/Dashboard
+
+### Web Dashboard
+
+#### Login/Logout Functionality Demo: [YouTube](https://www.youtube.com/watch?v=fiV9YUQwILQ)
+
+#### Old Dashboard Demo: [YouTube](https://youtu.be/56ZGH5aKuak)
+
+![web-dash-login-logout](https://github.com/Joshuliu/AppBot/blob/221c39da3288b586a7958556e5badd5731f10b81/Media/web%20dashboard.png)
+
+### Website
+![unknown.png](https://github.com/Joshuliu/AppBot/blob/221c39da3288b586a7958556e5badd5731f10b81/Media/unknown.png)
+
 ## Logo Variations
 ### Default
 <img src="https://github.com/Joshuliu/AppBot/blob/221c39da3288b586a7958556e5badd5731f10b81/Media/logos/AppBotCircle.png" alt="AppBotCircle" width="200"/>
@@ -16,15 +30,6 @@ Gallery of AppBot
 
 ### Dark
 <img src="https://github.com/Joshuliu/AppBot/blob/221c39da3288b586a7958556e5badd5731f10b81/Media/logos/DarkAppBot.png" alt="DarkAppBot" width="200"/>
-
-## Website/Dashboard
-
-### Web Dashboard
-[![web-dash-login-logout](https://github.com/Joshuliu/AppBot/blob/221c39da3288b586a7958556e5badd5731f10b81/Media/web%20dashboard.png)](https://youtu.be/fiV9YUQwILQ)
-Click to view [login/logout functionality](https://www.youtube.com/watch?v=fiV9YUQwILQ).
-
-### Website
-![unknown.png](https://github.com/Joshuliu/AppBot/blob/221c39da3288b586a7958556e5badd5731f10b81/Media/unknown.png)
 
 ## Miscellaneous
 
