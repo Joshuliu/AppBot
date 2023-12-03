@@ -3,7 +3,7 @@ AppBot is a production-scale Discord bot and a dedicated project from 2016 to 20
 
 The uploaded source code is a version of AppBot, written in 2018. During this period, a significant milestone in AppBot's development was the transition from a basic HTML website to a dynamic site utilizing Jinja. This pivotal upgrade empowered the bot to deliver a more engaging and interactive user experience through a web dashboard.
 
-### [Gallery](https://github.com/Joshuliu/AppBot/blob/e08b4f8cdf607680e82f06dadbb193167b1c0f61/Media/Gallery.md)
+### [View the Gallery](https://github.com/Joshuliu/AppBot/blob/e08b4f8cdf607680e82f06dadbb193167b1c0f61/Media/Gallery.md)
 
 ## Run AppBot
 AppBot was developed using Python 3.6, which was the latest version at the time. The code was tailored for deployment on our Linux servers and bot profiles, making it less readily compatible with other systems. Attempting to run the code on different setups will likely necessitate substantial modifications to adapt it for specific environments.
